@@ -1,0 +1,33 @@
+.Navbar{
+    background-color: antiquewhite;
+}
+
+.menu-right{
+    text-align: left;
+}
+
+ul li{
+    display: inline-block;
+    margin: 5px;
+    list-style: none;
+}
+
+.Navbar .menu-right span{ 
+    margin: 0 10px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 700px){
+   .Navbar .menu-right span
+    {
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+}

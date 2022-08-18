@@ -1,0 +1,11 @@
+.Blog{
+    padding: 0 7%;
+    margin: 0;
+    max-width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+.Blog h1{
+    text-align: center;
+    color:red;
+}

@@ -1,0 +1,14 @@
+.About{
+    padding: 0 7%;
+    margin: 0;
+    max-width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+.About h1{
+    text-align: center;
+    color:red;
+    }
+#pp{
+        font-weight: bolder;
+    }
